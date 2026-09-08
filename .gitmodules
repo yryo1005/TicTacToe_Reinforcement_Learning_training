@@ -1,0 +1,15 @@
+[submodule ".ai/ai-dev-kit"]
+	path = .ai/ai-dev-kit
+	url = https://github.com/yryo1005/ai-dev-kit.git
+[submodule ".ai/ai-tex-kit"]
+	path = .ai/ai-tex-kit
+	url = https://github.com/yryo1005/ai-tex-kit.git
+[submodule ".ai/ai-pptx-kit"]
+	path = .ai/ai-pptx-kit
+	url = https://github.com/yryo1005/ai-pptx-kit.git
+[submodule ".ai/ai-agent"]
+	path = .ai/ai-agent
+	url = https://github.com/yryo1005/ai-agent.git
+[submodule ".ai/pptx-render"]
+	path = .ai/pptx-render
+	url = https://github.com/yryo1005/pptx-render.git
