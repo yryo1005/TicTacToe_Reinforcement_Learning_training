@@ -4,7 +4,7 @@
     "alpha": 0.1,
     "epsilon": 0.1,
     "seed": 2,
-    "n_episodes": 50000,
-    "train_time_sec": 5.277264595031738,
+    "n_episodes": 10000,
+    "train_time_sec": 1.4449121952056885,
     "n_eval_episodes": 1000
 }

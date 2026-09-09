@@ -3,7 +3,7 @@
     "gamma": 0.95,
     "epsilon": 0.1,
     "seed": 0,
-    "n_episodes": 50000,
-    "train_time_sec": 4.430666923522949,
+    "n_episodes": 10000,
+    "train_time_sec": 1.2351973056793213,
     "n_eval_episodes": 1000
 }

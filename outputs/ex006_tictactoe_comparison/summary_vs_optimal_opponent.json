@@ -26,7 +26,7 @@
     {
         "label": "QLearning",
         "win_rate": 0.0,
-        "draw_rate": 1.0,
-        "lose_rate": 0.0
+        "draw_rate": 0.0,
+        "lose_rate": 1.0
     }
 ]
