@@ -1,0 +1,9 @@
+{
+    "algorithm": "MonteCarloControl",
+    "gamma": 0.95,
+    "epsilon": 0.1,
+    "seed": 1,
+    "n_episodes": 50000,
+    "train_time_sec": 4.328297138214111,
+    "n_eval_episodes": 1000
+}

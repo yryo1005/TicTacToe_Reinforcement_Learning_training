@@ -1,0 +1,47 @@
+[
+    {
+        "label": "RandomAgent",
+        "win_mean": 0.583,
+        "win_std": 0.019798989873223306,
+        "draw_mean": 0.121,
+        "draw_std": 0.011045361017187266,
+        "lose_mean": 0.296,
+        "lose_std": 0.01805547008526778
+    },
+    {
+        "label": "PolicyIteration",
+        "win_mean": 0.9963333333333333,
+        "win_std": 0.0016996731711975965,
+        "draw_mean": 0.0036666666666666666,
+        "draw_std": 0.001699673171197595,
+        "lose_mean": 0.0,
+        "lose_std": 0.0
+    },
+    {
+        "label": "ValueIteration",
+        "win_mean": 0.9963333333333333,
+        "win_std": 0.0016996731711975965,
+        "draw_mean": 0.0036666666666666666,
+        "draw_std": 0.001699673171197595,
+        "lose_mean": 0.0,
+        "lose_std": 0.0
+    },
+    {
+        "label": "MonteCarloControl",
+        "win_mean": 0.9876666666666667,
+        "win_std": 0.006944222218666559,
+        "draw_mean": 0.010666666666666666,
+        "draw_std": 0.005436502143433363,
+        "lose_mean": 0.0016666666666666668,
+        "lose_std": 0.0016996731711975948
+    },
+    {
+        "label": "QLearning",
+        "win_mean": 0.9806666666666667,
+        "win_std": 0.004027681991198194,
+        "draw_mean": 0.019333333333333334,
+        "draw_std": 0.004027681991198191,
+        "lose_mean": 0.0,
+        "lose_std": 0.0
+    }
+]

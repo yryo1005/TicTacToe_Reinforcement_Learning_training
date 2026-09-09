@@ -1,0 +1,32 @@
+[
+    {
+        "label": "RandomAgent",
+        "win_rate": 0.003,
+        "draw_rate": 0.069,
+        "lose_rate": 0.928
+    },
+    {
+        "label": "PolicyIteration",
+        "win_rate": 0.0,
+        "draw_rate": 1.0,
+        "lose_rate": 0.0
+    },
+    {
+        "label": "ValueIteration",
+        "win_rate": 0.0,
+        "draw_rate": 1.0,
+        "lose_rate": 0.0
+    },
+    {
+        "label": "MonteCarloControl",
+        "win_rate": 0.0,
+        "draw_rate": 1.0,
+        "lose_rate": 0.0
+    },
+    {
+        "label": "QLearning",
+        "win_rate": 0.0,
+        "draw_rate": 1.0,
+        "lose_rate": 0.0
+    }
+]

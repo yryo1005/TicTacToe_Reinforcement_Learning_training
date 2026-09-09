@@ -11,7 +11,7 @@
 | `ex001_random_baseline.md`〜`ex006_comparison_and_play.md` | 各実験の解説(目的・手法・実験条件・結果・考察・発展課題) |
 | `visualize_result.ipynb` | `outputs/`配下の全結果を横断的に走査・可視化する汎用ツール |
 | `figures/exNNN/` | 各実験が保存したグラフ画像 |
-| `outputs/` | 各実験の学習結果(`Q.npy`, `log.json`, `eval.json`, `config.json`)．Git管理外 |
+| `outputs/` | 各実験の学習結果(`Q.npy`, `log.json`, `eval.json`, `config.json`)．Git管理下 |
 
 ## 2. プログラム間の依存関係
 
@@ -67,10 +67,18 @@ policy_evaluation_sweep / q_from_value  ──▶ policy_iteration ──▶ bui
 
 `outputs/{実験名}/{アルゴリズム名}/{ハイパーパラメータ}/{seed}/`以下(詳細はREADME.md 6節)．
 比較結果は`outputs/ex006_tictactoe_comparison/`および`outputs/_comparison/`に保存する．
-グラフ画像は`figures/exNNN/`に保存する．いずれも`.gitignore`によりGit管理対象外である．
+グラフ画像は`figures/exNNN/`に保存する．
+
+`outputs/`はGit管理下に置き，`Q.npy`を含めてリポジトリにコミットする．
+Google Colabでノートブックを単体で開いた場合，そのインスタンス上には他の実験が
+保存した`outputs/`が存在しない．そこで，`ex003`・`ex005`・`ex006`は`resolve_reference_dir`
+関数により，ローカルに`outputs/`が無い場合は本リポジトリを`git clone`して参照する．
+`ex006`の対人対戦セルでは，対戦に使うQ値テーブルのパスを`Q_PATH`という1つの変数として
+公開しており，受講者は`outputs/`配下の任意の`Q.npy`(異なるハイパーパラメータ・シードの結果)や，
+自分でアップロードした`.npy`ファイルのパスに書き換えて使用できる．
 
 ## 4. Git管理上の注意事項
 
-- `outputs/`, `tokens.json`は`.gitignore`によりGit管理対象外とする．
+- `tokens.json`は`.gitignore`によりGit管理対象外とする．
 - 各`exNNN_*.ipynb`は実行結果(セル出力・生成した図の埋め込み)を含んだ状態でコミットし，
   実行せずともGitHub上でノートブックの内容と結果を確認できるようにする．

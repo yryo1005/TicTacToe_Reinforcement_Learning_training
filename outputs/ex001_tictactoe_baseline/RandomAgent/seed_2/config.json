@@ -1,0 +1,5 @@
+{
+    "algorithm": "RandomAgent",
+    "seed": 2,
+    "n_eval_episodes": 1000
+}
