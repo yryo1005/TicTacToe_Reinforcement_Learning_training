@@ -98,7 +98,7 @@ Xの一様ランダム方策に基づく遷移確率)．ex003の`value_iteration
 
 | 手法 | 勝率 | 引き分け率 | 敗率 |
 | :--- | ---: | ---: | ---: |
-| RandomAgent | 0.003 | 0.069 | 0.928 |
+| RandomAgent | 0.005 | 0.067 | 0.928 |
 | PolicyIteration | 0.000 | 1.000 | 0.000 |
 | ValueIteration | 0.000 | 1.000 | 0.000 |
 | MonteCarloControl | 0.000 | 1.000 | 0.000 |

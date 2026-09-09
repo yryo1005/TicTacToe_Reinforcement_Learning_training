@@ -1,8 +1,8 @@
 [
     {
         "label": "RandomAgent",
-        "win_rate": 0.003,
-        "draw_rate": 0.069,
+        "win_rate": 0.005,
+        "draw_rate": 0.067,
         "lose_rate": 0.928
     },
     {

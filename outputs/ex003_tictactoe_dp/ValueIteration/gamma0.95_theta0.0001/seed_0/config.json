@@ -4,6 +4,6 @@
     "theta": 0.0001,
     "seed": 0,
     "n_sweeps": 5,
-    "train_time_sec": 0.26525306701660156,
+    "train_time_sec": 0.2687404155731201,
     "n_eval_episodes": 1000
 }

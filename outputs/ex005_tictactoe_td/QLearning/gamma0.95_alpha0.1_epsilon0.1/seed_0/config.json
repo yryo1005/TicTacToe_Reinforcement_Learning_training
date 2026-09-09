@@ -5,6 +5,6 @@
     "epsilon": 0.1,
     "seed": 0,
     "n_episodes": 10000,
-    "train_time_sec": 4.641453981399536,
+    "train_time_sec": 1.520395040512085,
     "n_eval_episodes": 1000
 }
